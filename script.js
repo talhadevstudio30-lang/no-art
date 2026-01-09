@@ -179,6 +179,8 @@ class DrawingApp {
                 this.canvasWidthInput.value = 1200;
                 this.canvasHeightInput.value = 800;
                 this.resizeCanvas(1200, 800);
+                this.canvas.style.width = '100%';
+                this.canvas.style.height = '800px';
                 this.showNotification('Canvas size reset to default', 'info');
             }
         });
